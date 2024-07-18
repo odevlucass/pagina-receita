@@ -1,5 +1,16 @@
+
+
 .attribution {
+    display: flex;
     font-size: 11px;
+}
+
+#espacamento1 {
+    margin-right: 2px;
+}
+
+#espacamento2 {
+    margin-left: 2px;
 }
 
 .attribution a {
