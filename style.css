@@ -1,4 +1,97 @@
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.divisor {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+figure img {
+    width: 1200px;
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.introduction {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.introduction h1 {
+    font-size: 72px;
+    font-family: young serif;
+    font-weight: 100;
+    color: hsl(24, 5%, 18%);
+}
+
+.introduction p {
+    font-size: 30px;
+    font-family: outfit;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+#preparation-time {
+    background: hsl(330, 100%, 98%);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#preparation-time h2 {
+    color: hsl(332, 51%, 32%);
+    font-family: outfit;
+    font-size: 36px;
+    font-weight: 500;
+    margin-left: 36px;
+}
+
+#preparation-time li {
+    margin-left: 28px;
+    padding-left: 40px;
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation-time-style-1 {
+    font-weight: 700;
+}
+
+.ingredients {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.ingredients h2 {
+    font-size: 60px;
+    font-family: young serif;
+    font-weight: 100;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients li {
+    padding-left: 40px;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients p {
+    font-size: 30px;
+    font-family: outfit;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
 
 .attribution {
     display: flex;
