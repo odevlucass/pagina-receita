@@ -93,9 +93,74 @@ figure img {
     color: hsl(30, 10%, 34%);
 }
 
+.instructions {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.instructions h2 {
+    font-size: 60px;
+    font-family: young serif;
+    font-weight: 100;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions li {
+    padding-left: 40px;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions p {
+    font-size: 30px;
+    font-family: outfit;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.nutrition h2 {
+    font-size: 60px;
+    font-family: young serif;
+    font-weight: 100;
+    color: hsl(14, 45%, 36%);
+}
+
+
+.nutrition p {
+    font-size: 30px;
+    font-family: outfit;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition-section-style-1 {
+    font-size: 30px;
+    font-family: outfit;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    padding-left: 56px;
+}
+
+.nutrition .nutrition-section-style-2 {
+    font-size: 30px;
+    font-family: outfit;
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition-section {
+    display: flex;
+}
+
 .attribution {
     display: flex;
     font-size: 11px;
+    font-family: outfit;
+    justify-content: center;
 }
 
 #espacamento1 {
