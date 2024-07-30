@@ -15,6 +15,11 @@
     margin-top: 50px;
 }
 
+body {
+    max-width: 1980px;
+    margin: auto;
+}
+
 header {
     text-align: center;
 }
@@ -22,8 +27,7 @@ header {
 figure img {
     width: 1200px;
     border-radius: 15px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 30px;
 }
 
 .introduction {
@@ -137,6 +141,10 @@ figure img {
     color: hsl(30, 10%, 34%);
 }
 
+.nutrition-section {
+    display: flex;
+}
+
 .nutrition-section-style-1 {
     font-size: 30px;
     font-family: outfit;
@@ -145,22 +153,45 @@ figure img {
     padding-left: 56px;
 }
 
-.nutrition .nutrition-section-style-2 {
+#kcal {
     font-size: 30px;
     font-family: outfit;
     font-weight: 600;
     color: hsl(14, 45%, 36%);
+    margin-left: 460px;
 }
 
-.nutrition-section {
-    display: flex;
+#carbsg {
+    font-size: 30px;
+    font-family: outfit;
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+    margin-left: 490px;
+}
+
+#proteing {
+    font-size: 30px;
+    font-family: outfit;
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+    margin-left: 480px;
+}
+
+#fatg {
+    font-size: 30px;
+    font-family: outfit;
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+    margin-left: 530px;
 }
 
 .attribution {
     display: flex;
-    font-size: 11px;
+    font-size: 14px;
     font-family: outfit;
     justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
 }
 
 #espacamento1 {
