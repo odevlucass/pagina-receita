@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Deixando declarações padronizadas*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.padrao1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    background: red;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    padding: 10px;
+    
+    h4 {
+        text-align: center;
+        font-size: 10px;
+        
+        a {
+            color: hsl(228, 45%, 44%);
+        }
+    }
+}
