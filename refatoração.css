@@ -22,8 +22,15 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 320px;
-    background: red;
+    
+
+    ul,ol {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
+
+/*Estilização*/
 
 footer{
     display: flex;
