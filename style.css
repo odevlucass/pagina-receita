@@ -1,207 +1,202 @@
-.young-serif-regular {
-    font-family: "Young Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+/*Configurações iniciais*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
-.outfit {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.divisor {
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 50px;
-}
+/*Deixando declarações padronizadas*/
 
 body {
-    max-width: 1980px;
-    margin: auto;
-}
-
-header {
-    text-align: center;
-}
-
-figure img {
-    width: 1200px;
-    border-radius: 15px;
-    margin-top: 30px;
-}
-
-.introduction {
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-.introduction h1 {
-    font-size: 72px;
-    font-family: young serif;
-    font-weight: 100;
-    color: hsl(24, 5%, 18%);
-}
-
-.introduction p {
-    font-size: 30px;
-    font-family: outfit;
-    font-weight: 400;
-    color: hsl(30, 10%, 34%);
-}
-
-#preparation-time {
-    background: hsl(330, 100%, 98%);
-    padding: 15px;
-    border-radius: 15px;
-}
-
-#preparation-time h2 {
-    color: hsl(332, 51%, 32%);
-    font-family: outfit;
-    font-size: 36px;
-    font-weight: 500;
-    margin-left: 36px;
-}
-
-#preparation-time li {
-    margin-left: 28px;
-    padding-left: 40px;
-    color: hsl(332, 51%, 32%);
-}
-
-.preparation-time-style-1 {
-    font-weight: 700;
-}
-
-.ingredients {
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-.ingredients h2 {
-    font-size: 60px;
-    font-family: young serif;
-    font-weight: 100;
-    color: hsl(14, 45%, 36%);
-}
-
-.ingredients li {
-    padding-left: 40px;
-    color: hsl(14, 45%, 36%);
-}
-
-.ingredients p {
-    font-size: 30px;
-    font-family: outfit;
-    font-weight: 400;
-    color: hsl(30, 10%, 34%);
-}
-
-.instructions {
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-.instructions h2 {
-    font-size: 60px;
-    font-family: young serif;
-    font-weight: 100;
-    color: hsl(14, 45%, 36%);
-}
-
-.instructions li {
-    padding-left: 40px;
-    color: hsl(14, 45%, 36%);
-}
-
-.instructions p {
-    font-size: 30px;
-    font-family: outfit;
-    font-weight: 400;
-    color: hsl(30, 10%, 34%);
-}
-
-.nutrition {
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-.nutrition h2 {
-    font-size: 60px;
-    font-family: young serif;
-    font-weight: 100;
-    color: hsl(14, 45%, 36%);
-}
-
-
-.nutrition p {
-    font-size: 30px;
-    font-family: outfit;
-    font-weight: 400;
-    color: hsl(30, 10%, 34%);
-}
-
-.nutrition-section {
     display: flex;
-}
-
-.nutrition-section-style-1 {
-    font-size: 30px;
-    font-family: outfit;
-    font-weight: 400;
-    color: hsl(30, 10%, 34%);
-    padding-left: 56px;
-}
-
-#kcal {
-    font-size: 30px;
-    font-family: outfit;
-    font-weight: 600;
-    color: hsl(14, 45%, 36%);
-    margin-left: 460px;
-}
-
-#carbsg {
-    font-size: 30px;
-    font-family: outfit;
-    font-weight: 600;
-    color: hsl(14, 45%, 36%);
-    margin-left: 490px;
-}
-
-#proteing {
-    font-size: 30px;
-    font-family: outfit;
-    font-weight: 600;
-    color: hsl(14, 45%, 36%);
-    margin-left: 480px;
-}
-
-#fatg {
-    font-size: 30px;
-    font-family: outfit;
-    font-weight: 600;
-    color: hsl(14, 45%, 36%);
-    margin-left: 530px;
-}
-
-.attribution {
-    display: flex;
-    font-size: 14px;
-    font-family: outfit;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 15px;
+    gap: 24px;
+    width: 375px;
 }
 
-#espacamento1 {
-    margin-right: 2px;
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
-#espacamento2 {
-    margin-left: 2px;
+.padrao1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+
+    h2 {
+        font-family: young serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: hsl(14, 45%, 36%);
+    }
+
+    p {
+        font-size: 16px;
+        font-family: outfit;
+        font-weight: 400;
+        color: hsl(30, 10%, 34%);
+    }
+
+
+    ul,
+    ol {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    li {
+        font-family: outfit;
+        font-weight: 700;
+        padding-left: 12px;
+    }
+
+    hr {
+        margin-top: 24px;
+    }
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+/*Estilização*/
+
+
+body {
+
+    img {
+        width: 100%;
+    }
+
+    #introduction {
+
+        h1 {
+            font-family: "Young Serif", serif;
+            font-size: 36px;
+            font-weight: 400;
+            color: hsl(24, 5%, 18%);
+        }
+
+    }
+
+    #preparation-time {
+        padding: 28px;
+        border-radius: 16px;
+        background: hsl(330, 100%, 98%);
+
+        h2 {
+            font-family: outfit;
+            font-size: 24px;
+            font-weight: 700;
+            color: hsl(332, 51%, 32%);
+        }
+
+        li {
+            padding-left: 12px;
+            margin-bottom: 8px;
+            color: hsl(332, 51%, 32%);
+        }
+    }
+
+    #ingredients {
+
+        li {
+            color: hsl(14, 45%, 36%);
+        }
+    }
+
+    #instructions {
+
+        li {
+            margin-bottom: 8px;
+            color: hsl(14, 45%, 36%);
+        }
+    }
+
+    #nutrition {
+
+        .text1 {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .text2 {
+
+            .nutrition-section {
+    
+                display: flex;
+    
+                .nutrition-section-style-1 {
+                    font-size: 16px;
+                    font-family: outfit;
+                    font-weight: 400;
+                    color: hsl(30, 10%, 34%);
+                    margin-left: 24px;
+                }
+    
+                #kcal {
+                    font-size: 16px;
+                    font-family: outfit;
+                    font-weight: 600;
+                    color: hsl(14, 45%, 36%);
+                    margin-left: 60px;
+                }
+                
+                #carbsg {
+                    font-size: 16px;
+                    font-family: outfit;
+                    font-weight: 600;
+                    color: hsl(14, 45%, 36%);
+                    margin-left: 75px;
+                }
+                
+                #proteing {
+                    font-size: 16px;
+                    font-family: outfit;
+                    font-weight: 600;
+                    color: hsl(14, 45%, 36%);
+                    margin-left: 68px;
+                }
+                
+                #fatg {
+                    font-size: 16px;
+                    font-family: outfit;
+                    font-weight: 600;
+                    color: hsl(14, 45%, 36%);
+                    margin-left: 95px;
+                }
+            }
+
+            hr {
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
+
+        }
+
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    padding: 10px;
+
+    h4 {
+        text-align: center;
+        font-family: outfit;
+        font-size: 8px;
+
+        a {
+            color: hsl(228, 45%, 44%);
+        }
+    }
 }
