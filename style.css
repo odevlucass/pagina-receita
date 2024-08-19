@@ -197,8 +197,6 @@ body {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     width: 320px;
@@ -420,6 +418,43 @@ footer {
 
 @media (min-width: 1200px) {
 
-    
+    body {
+       display: block;
+       margin: auto;
+       max-width: 1200px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 24px;
+        
+        picture {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 24px;
+            
+            img {
+                border-radius: 15px;
+                width: 100%;
+            }
+        }
+    }
+
+    main {
+        margin-bottom: 24px;
+    }
+
+    footer {
+        width: 1200px;
+
+        h4 {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
 
 }
